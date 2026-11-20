@@ -17,3 +17,6 @@ tags = ["android app"]
 
 #### Long weekends tab
 {{< custom_width_image src="projects/holidays-android-app/holidays-app-lng-weekends-tab.jpg" width={280} alt="Screenshot image of long weekends tab in Holidays android app" />}}
+
+#### Holidays tab
+{{< custom_width_image src="projects/holidays-android-app/holidays-app-holidays-tab.jpg" width={280} alt="Screenshot image of holidays tab in Holidays android app" />}}
