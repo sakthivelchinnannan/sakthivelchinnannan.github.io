@@ -20,3 +20,6 @@ tags = ["android app"]
 
 #### Holidays tab
 {{< custom_width_image src="projects/holidays-android-app/holidays-app-holidays-tab.jpg" width={280} alt="Screenshot image of holidays tab in Holidays android app" />}}
+
+#### Notification settings
+{{< custom_width_image src="projects/holidays-android-app/holidays-app-notification-settings.jpg" width={280} alt="Screenshot image of notification settings in Holidays android app" />}}
