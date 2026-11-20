@@ -8,7 +8,7 @@ local_image = "projects/chit-tracker-screenshot.jpg"
 invertible_image = false
 
 [taxonomies]
-tags = ["web app"]
+tags = ["web app", "supabase", "reactjs"]
 +++
 
 {{< custom_width_image src="projects/chit-tracker-screenshot.jpg" width={280} dimmable={true} alt="A screenshot of Chit Tracker web app showing a sign up page." />}}

@@ -8,7 +8,7 @@ local_image = "projects/tnau-agri-events-screenshot.jpg"
 invertible_image = false
 
 [taxonomies]
-tags = ["web app"]
+tags = ["web app", "agriculture", "supabase", "reactjs", "gen ai"]
 +++
 
 {{< dimmable_image src="tnau-agri-events-screenshot.jpg" alt="A screenshot of T N A U Agri Events web app showing 0 ongoing events and first two of the 20 past events. The web app's content is in Tamil language. Above the results a search field and a set of filter options named 'All Events', 'Training', 'Announcements', etc. are shown with 'All Events' button selected." />}}
