@@ -2,6 +2,12 @@
 title = "Kisan Call Center’s Effectiveness in Indian Villages"
 description = "This is about a facility initiated by the Ministry of Agriculture in 2004 which was named \"Kisan Call Center\" (KCC). I heard about it in my school days but failed to notice that no one in my village was using it's services. But now while thinking about the reasons why most of the farmers fail…"
 date = 2012-06-15
+
+[extra]
+invertible_image = false
+
+[taxonomies]
+tags = ["agriculture"]
 +++
 
 I grew up in an agricultural family so I know the difficulties in farming, like coping with lack of water supply for irrigation, lack of knowledge about advanced techniques, lack of cooperation between neighbors, lack of labor nowadays, lack of proper government intervention for various support and most importantly **lack of interest among farmers**.
