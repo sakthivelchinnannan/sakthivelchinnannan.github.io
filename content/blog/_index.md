@@ -1,7 +1,9 @@
 +++
-title = "List of blog posts"
+paginate_by = 5
+title = "Blog"
 sort_by = "date"
+insert_anchor_links = "left"
 
 [extra]
-quick_navigation_buttons = true
+show_previous_next_article_links = true
 +++
