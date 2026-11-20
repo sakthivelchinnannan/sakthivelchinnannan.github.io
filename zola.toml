@@ -1,0 +1,24 @@
+# The URL the site will be built for
+base_url = "https://sakthic.me"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+title = "Sakthivel's Internet Home"
+
+[markdown]
+external_links_class = "external"
+
+[markdown.highlighting]
+# Themes list - https://textmate-grammars-themes.netlify.app/
+theme = "catppuccin-mocha"
+style = "class"
+
+[extra]
+# Put all your custom variables here
+
+[[taxonomies]]
+name = "tags"
