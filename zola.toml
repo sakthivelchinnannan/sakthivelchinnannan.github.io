@@ -20,7 +20,6 @@ style = "class"
 
 [extra]
 # Put all your custom variables here
-# Put all your custom variables here
 theme = "dark"  # light, dark
 skin = "indigo_ingot"  # blue, mint, indigo_ingot, etc.
 override_serif_with_sans = true

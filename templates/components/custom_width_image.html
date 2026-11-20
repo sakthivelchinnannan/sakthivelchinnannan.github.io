@@ -1,0 +1,12 @@
+{% component custom_width_image(src: string, width: integer, @page = {}, alt = "", dimmable = false, lazy_loading = true) %}
+
+{%- set class_list = "" -%}
+{%- if dimmable -%}
+    {%- set class_list = "dimmable-image" -%}
+{%- endif -%}
+
+<div>
+    {%- set image = resize_image(path=src, width=width, op="fit_width") -%}
+    <img class="{{ class_list }}" src="{{ image.url }}" {% if alt %} alt="{{ alt | escape }}"{% endif %}{% if lazy_loading %} loading="lazy"{% endif %}/>
+</div>
+{% endcomponent custom_width_image %}
