@@ -3,5 +3,5 @@ title = "Archive"
 template = "archive.html"
 
 [extra]
-section_path = ["blog/"]
+section_path = ["blog/", "projects/"]
 +++
