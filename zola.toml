@@ -1,17 +1,18 @@
 # The URL the site will be built for
 base_url = "https://sakthic.me"
-
-# Whether to automatically compile all Sass files in the sass directory
+title = "Sakthivel's Internet Home"
+description = "I’m a technology enthusiast working on tools to enrich agricultural activities in Tamil Nadu, India. Previously I worked at Amazon as Support Engineer and then as System Development Engineer from Nov-2012 to Dec-2025."
+author = "Sakthivel Chinnannan"
+generate_feeds = true
+minify_html = true
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
 theme = "tabi"
-title = "Sakthivel's Internet Home"
 
 [markdown]
 external_links_class = "external"
+insert_anchor_links = "heading"
 
 [markdown.highlighting]
 # Themes list - https://textmate-grammars-themes.netlify.app/
@@ -25,6 +26,8 @@ skin = "indigo_ingot"  # blue, mint, indigo_ingot, etc.
 override_serif_with_sans = true
 compact_tags = true
 favicon = "img/favicon.ico"
+social_media_card = "img/index_dark.jpg"
+feed_icon = true
 
 remote_repository_url = "https://github.com/sakthivelchinnannan/sakthivelchinnannan.github.io"
 remote_repository_git_platform = "auto"
@@ -32,8 +35,9 @@ remote_repository_branch = "master"
 show_remote_source = true
 
 socials = [
-    { name = "github", url = "https://github.com/sakthivelchinnannan/", icon = "github" },
     { name = "bluesky", url = "https://bsky.app/profile/sakthic.bsky.social", icon = "bluesky" },
+    { name = "github", url = "https://github.com/sakthivelchinnannan/", icon = "github" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/sakthivelchinnannan", icon = "linkedin" },
 ]
 
 [[taxonomies]]
